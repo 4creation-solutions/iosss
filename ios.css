@@ -1,0 +1,39 @@
+body {
+    scroll-behavior: smooth;
+    font-family: cursive;
+    
+}
+
+.cn {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    padding: 10px;
+}
+li {
+    list-style-type: none;
+}
+.container {
+    width: 80%;
+    margin: auto;
+}
+
+.counter-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.counter {
+    text-align: center;
+}
+.counter h3 {
+    padding: 0.5rem 0;
+    font-size: 2.5rem;
+    font-weight: 800;
+}
+
+.counter h6 {
+    font-size: 2rem;
+    padding-bottom: 1rem;
+}
